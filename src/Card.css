@@ -1,0 +1,24 @@
+.card {
+    background-position: center;
+    background-size: cover;
+    background-image: url('./assets/card_executioner.jpg');
+    box-shadow: 0 0 30px whitesmoke;
+    border-radius: 5%;
+    height: 400px;
+    width: 280px;
+    margin: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card.flipped {
+    transform: scaleY(-1) scaleX(-1);
+  }
+  
+  .card.flipped:hover {
+    transform: scale(1.1);
+  }
+  
