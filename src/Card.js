@@ -9,7 +9,7 @@ class Card extends Component {
       return (
         <div className="card" style={
             {
-              backgroundImage: `url("./assets/${imageUrl}")`
+              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/${imageUrl})`
             }
           }>
         </div>
