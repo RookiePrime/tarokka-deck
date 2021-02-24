@@ -2,72 +2,72 @@
     "deck": [
         {
             "name": "The Artifact",
-            "imageUrl": "./assets/card_artifact.png",
+            "imageUrl": "card_artifact.png",
             "key": 0
         },
         {
             "name": "The Beast",
-            "imageUrl": "./assets/card_beast.png",
+            "imageUrl": "card_beast.png",
             "key": 1
         },
         {
             "name": "The Broken One",
-            "imageUrl": "./assets/card_broken_one.png",
+            "imageUrl": "card_broken_one.png",
             "key": 2
         },
         {
             "name": "The Darklord",
-            "imageUrl": "./assets/card_darklord.png",
+            "imageUrl": "card_darklord.png",
             "key": 3
         },
         {
             "name": "The Donjon",
-            "imageUrl": "./assets/card_donjon.png",
+            "imageUrl": "card_donjon.png",
             "key": 4
         },
         {
             "name": "The Executioner",
-            "imageUrl": "./assets/card_executioner.jpg",
+            "imageUrl": "card_executioner.jpg",
             "key": 5
         },
         {
             "name": "The Ghost",
-            "imageUrl": "./assets/card_ghost.png",
+            "imageUrl": "card_ghost.png",
             "key": 6
         },
         {
             "name": "The Horseman",
-            "imageUrl": "./assets/card_horseman.png",
+            "imageUrl": "card_horseman.png",
             "key": 7
         },
         {
             "name": "The Innocent",
-            "imageUrl": "./assets/card_innocent.png",
+            "imageUrl": "card_innocent.png",
             "key": 8
         },
         {
             "name": "The Marionette",
-            "imageUrl": "./assets/card_marionette.png",
+            "imageUrl": "card_marionette.png",
             "key": 9
         },
         {
             "name": "The Mists",
-            "imageUrl": "./assets/card_mists.png",
+            "imageUrl": "card_mists.png",
             "key": 10
         },
         {
             "name": "The Raven",
-            "imageUrl": "./assets/card_raven.png",
+            "imageUrl": "card_raven.png",
             "key": 11
         },
         {
             "name": "The Seer",
-            "imageUrl": "./assets/card_seer.png",
+            "imageUrl": "card_seer.png",
             "key": 12
         },
         {
             "name": "The Tempter",
-            "imageUrl": "./assets/card_tempter.png",
+            "imageUrl": "card_tempter.png",
             "key": 13
         }
     ]
