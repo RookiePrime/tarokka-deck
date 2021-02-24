@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import './Card.css';
-import cardPictures from './assets';
 
 class Card extends Component {
     render() {
@@ -10,7 +9,7 @@ class Card extends Component {
         return (
           <div className="card" style={
             {
-              backgroundImage: `url('./logo.svg')`
+              backgroundImage: `url(${imageUrl})`
             }
           }>
           </div>
