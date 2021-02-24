@@ -1,8 +1,8 @@
 {
   "name": "tarokka-deck",
   "version": "0.1.0",
-  "homepage": "https://rookieprime.github.io/tarokka-deck/",
   "private": true,
+  "homepage": "https://rookieprime.github.io/tarokka-deck/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
