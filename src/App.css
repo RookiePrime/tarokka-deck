@@ -44,3 +44,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.make-cards {
+  margin: 20px;
+}

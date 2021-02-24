@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
 import './Card.css';
+import cardPictures from './assets';
 
 class Card extends Component {
     render() {
         const {cardData} = this.props;
         const {imageUrl} = cardData;
-        console.log(imageUrl);
+
         return (
-          <div className="card" carddata={cardData} style={
+          <div className="card" style={
             {
-              backgroundImage: `url(${imageUrl})`
+              backgroundImage: `url('./logo.svg')`
             }
           }>
           </div>
