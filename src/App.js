@@ -30,6 +30,11 @@ class App extends Component {
       cards: this.state.cards.concat(daCard),
       deck: this.state.deck.filter(card => card !== daCard)
     });
+
+    if (this.state.cards.length >= 4) {
+      document.getElementById('make-cards').style.pointerEvents = "none";
+      document.getElementById('make-cards').style.opacity = "0.5";
+    }
   }
 
   render() {
@@ -44,7 +49,7 @@ class App extends Component {
           <h1>Tarokka Reading</h1>
         </header>
         <main className="App-main">
-          <button className="make-cards" onClick={() => this.makeCard(this.state.deck)}>Make a Card!</button>
+          <button className="make-cards" id="make-cards" onClick={() => this.makeCard(this.state.deck)}>Make a Card!</button>
           <div className="cards-box">
             {theCards}  
           </div>

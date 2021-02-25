@@ -1,23 +1,27 @@
 .card {
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0 0 30px whitesmoke;
-    border-radius: 5%;
-    height: 400px;
-    width: 280px;
-    margin: 20px;
-    transition: all 0.3s ease;
-  }
+  box-shadow: 0 0 30px whitesmoke;
+  border-radius: 5%;
+  height: 400px;
+  width: 280px;
+  margin: 20px;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.pic-box {
+  background-position: center;
+  background-size: cover;
+  border-radius: 5%;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
   
-  .card:hover {
+.card:hover {
     transform: scale(1.1);
-  }
+}
   
-  .card.flipped {
-    transform: scaleY(-1) scaleX(-1);
-  }
-  
-  .card.flipped:hover {
+.card.flipped:hover {
     transform: scale(1.1);
-  }
+}
   

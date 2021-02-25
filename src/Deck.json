@@ -2,72 +2,72 @@
     "deck": [
         {
             "name": "The Artifact",
-            "imageUrl": "card_artifact.png",
+            "imageUrl": "crowns_artifact.png",
             "key": 0
         },
         {
             "name": "The Beast",
-            "imageUrl": "card_beast.png",
+            "imageUrl": "crowns_beast.png",
             "key": 1
         },
         {
             "name": "The Broken One",
-            "imageUrl": "card_broken_one.png",
+            "imageUrl": "crowns_broken_one.png",
             "key": 2
         },
         {
             "name": "The Darklord",
-            "imageUrl": "card_darklord.png",
+            "imageUrl": "crowns_darklord.png",
             "key": 3
         },
         {
             "name": "The Donjon",
-            "imageUrl": "card_donjon.png",
+            "imageUrl": "crowns_donjon.png",
             "key": 4
         },
         {
             "name": "The Executioner",
-            "imageUrl": "card_executioner.jpg",
+            "imageUrl": "crowns_executioner.jpg",
             "key": 5
         },
         {
             "name": "The Ghost",
-            "imageUrl": "card_ghost.png",
+            "imageUrl": "crowns_ghost.png",
             "key": 6
         },
         {
             "name": "The Horseman",
-            "imageUrl": "card_horseman.png",
+            "imageUrl": "crowns_horseman.png",
             "key": 7
         },
         {
             "name": "The Innocent",
-            "imageUrl": "card_innocent.png",
+            "imageUrl": "crowns_innocent.png",
             "key": 8
         },
         {
             "name": "The Marionette",
-            "imageUrl": "card_marionette.png",
+            "imageUrl": "crowns_marionette.png",
             "key": 9
         },
         {
             "name": "The Mists",
-            "imageUrl": "card_mists.png",
+            "imageUrl": "crowns_mists.png",
             "key": 10
         },
         {
             "name": "The Raven",
-            "imageUrl": "card_raven.png",
+            "imageUrl": "crowns_raven.png",
             "key": 11
         },
         {
             "name": "The Seer",
-            "imageUrl": "card_seer.png",
+            "imageUrl": "crowns_seer.png",
             "key": 12
         },
         {
             "name": "The Tempter",
-            "imageUrl": "card_tempter.png",
+            "imageUrl": "crowns_tempter.png",
             "key": 13
         }
     ]

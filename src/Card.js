@@ -7,11 +7,13 @@ class Card extends Component {
       const {imageUrl} = cardData;
 
       return (
-        <div className="card" style={
+        <div className="card">
+          <div className="pic-box" style={
             {
-              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/${imageUrl})`
+              backgroundImage: `url(${process.env.PUBLIC_URL}/assets/card_${imageUrl})`,
+              transform: !cardData.flipped ? `rotate(180deg)` : `rotate(0deg)`
             }
-          }>
+          }></div>
         </div>
       );
     }
