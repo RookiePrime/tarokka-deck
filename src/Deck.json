@@ -1,74 +1,366 @@
 {
-    "deck": [
+    "commonDeck": [
         {
-            "name": "The Artifact",
-            "imageUrl": "crowns_artifact.png",
+            "name": "The Swashbuckler",
+            "suit": "coins",
+            "number": 1,
+            "description": "The Swashbuckler stands for those who like money yet give it up freely; for likable rogues and rapscallions.",
+            "imageUrl": "coins_1_swashbuckler.png",
             "key": 0
         },
         {
-            "name": "The Beast",
-            "imageUrl": "crowns_beast.png",
+            "name": "The Philanthropist",
+            "suit": "coins",
+            "number": 2,
+            "description": "The Philanthropist stands for charity and giving on a grand scale; for those who use wealth to fight evil and sickness.",
+            "imageUrl": "coins_2_philanthropist.png",
             "key": 1
         },
         {
-            "name": "The Broken One",
-            "imageUrl": "crowns_broken_one.png",
+            "name": "The Trader",
+            "suit": "coins",
+            "number": 3,
+            "description": "The Trader stands for commerce; for smuggling and black markets; for fair and equitable trades.",
+            "imageUrl": "coins_3_trader.png",
             "key": 2
         },
         {
-            "name": "The Darklord",
-            "imageUrl": "crowns_darklord.png",
+            "name": "The Merchant",
+            "suit": "coins",
+            "number": 4,
+            "description": "The Merchant stands for a rare commodity or business opportunity; for deceitful or dangerous business transactions.",
+            "imageUrl": "coins_4_merchant.png",
             "key": 3
         },
         {
-            "name": "The Donjon",
-            "imageUrl": "crowns_donjon.png",
+            "name": "The Guild Member",
+            "suit": "coins",
+            "number": 5,
+            "description": "The Guild Member stands for like-minded individuals joined together in a common goal; for pride in one's work.",
+            "imageUrl": "coins_5_guild_member.png",
             "key": 4
         },
         {
-            "name": "The Executioner",
-            "imageUrl": "crowns_executioner.jpg",
+            "name": "The Beggar",
+            "suit": "coins",
+            "number": 6,
+            "description": "The Beggar stands for sudden change in economic status of fortune.",
+            "imageUrl": "coins_6_beggar.png",
             "key": 5
         },
         {
-            "name": "The Ghost",
-            "imageUrl": "crowns_ghost.png",
+            "name": "The Thief",
+            "suit": "coins",
+            "number": 7,
+            "description": "The Thief stands for those who steal or burgle; for a loss of property, beauty, innocence, friendship, or reputation.",
+            "imageUrl": "coins_7_thief.png",
             "key": 6
         },
         {
-            "name": "The Horseman",
-            "imageUrl": "crowns_horseman.png",
+            "name": "The Tax Collector",
+            "suit": "coins",
+            "number": 8,
+            "description": "The Tax Collector stands for corruption; for honesty in an otherwise corrupt government or organization.",
+            "imageUrl": "coins_8_tax_collector.png",
             "key": 7
         },
         {
-            "name": "The Innocent",
-            "imageUrl": "crowns_innocent.png",
+            "name": "The Miser",
+            "suit": "coins",
+            "number": 9,
+            "description": "The Miser stands for hoarded wealth; for those who are irreversibly unhappy or who think money is meaningless.",
+            "imageUrl": "coins_9_miser.png",
             "key": 8
         },
         {
-            "name": "The Marionette",
-            "imageUrl": "crowns_marionette.png",
+            "name": "The Rogue",
+            "suit": "coins",
+            "number": 10,
+            "description": "The Rogue stands for anyone for whom money is important; for those who believe money is the key to their success.",
+            "imageUrl": "coins_master_rogue.png",
             "key": 9
         },
         {
-            "name": "The Mists",
-            "imageUrl": "crowns_mists.png",
+            "name": "The Monk",
+            "suit": "glyphs",
+            "number": 1,
+            "imageUrl": "glyphs_1_monk.png",
             "key": 10
         },
         {
-            "name": "The Raven",
-            "imageUrl": "crowns_raven.png",
+            "name": "The Missionary",
+            "suit": "glyphs",
+            "number": 2,
+            "imageUrl": "glyphs_2_missionary.png",
             "key": 11
         },
         {
-            "name": "The Seer",
-            "imageUrl": "crowns_seer.png",
+            "name": "The Healer",
+            "suit": "glyphs",
+            "number": 3,
+            "imageUrl": "glyphs_3_healer.png",
             "key": 12
         },
         {
-            "name": "The Tempter",
-            "imageUrl": "crowns_tempter.png",
+            "name": "The Shepherd",
+            "suit": "glyphs",
+            "number": 4,
+            "imageUrl": "glyphs_4_shepherd.png",
             "key": 13
+        },
+        {
+            "name": "The Druid",
+            "suit": "glyphs",
+            "number": 5,
+            "imageUrl": "glyphs_5_druid.png",
+            "key": 14
+        },
+        {
+            "name": "The Anarchist",
+            "suit": "glyphs",
+            "number": 6,
+            "imageUrl": "glyphs_6_anarchist.png",
+            "key": 15
+        },
+        {
+            "name": "The Charlatan",
+            "suit": "glyphs",
+            "number": 7,
+            "imageUrl": "glyphs_7_charlatan.png",
+            "key": 16
+        },
+        {
+            "name": "The Bishop",
+            "suit": "glyphs",
+            "number": 8,
+            "imageUrl": "glyphs_8_bishop.png",
+            "key": 17
+        },
+        {
+            "name": "The Traitor",
+            "suit": "glyphs",
+            "number": 9,
+            "imageUrl": "glyphs_9_traitor.png",
+            "key": 18
+        },
+        {
+            "name": "The Priest",
+            "suit": "glyphs",
+            "number": 10,
+            "imageUrl": "glyphs_master_priest.jpg",
+            "key": 19
+        },
+        {
+            "name": "The Transmuter",
+            "suit": "stars",
+            "number": 1,
+            "imageUrl": "stars_1_transmuter.png",
+            "key": 20
+        },
+        {
+            "name": "The Diviner",
+            "suit": "stars",
+            "number": 2,
+            "imageUrl": "stars_2_diviner.png",
+            "key": 21
+        },
+        {
+            "name": "The Enchanter",
+            "suit": "stars",
+            "number": 3,
+            "imageUrl": "stars_3_enchanter.png",
+            "key": 22
+        },
+        {
+            "name": "The Abjurer",
+            "suit": "stars",
+            "number": 4,
+            "imageUrl": "stars_4_abjurer.png",
+            "key": 23
+        },
+        {
+            "name": "The Elementalist",
+            "suit": "stars",
+            "number": 5,
+            "imageUrl": "stars_5_elementalist.jpg",
+            "key": 24
+        },
+        {
+            "name": "The Evoker",
+            "suit": "stars",
+            "number": 6,
+            "imageUrl": "stars_6_evoker.png",
+            "key": 25
+        },
+        {
+            "name": "The Illusionist",
+            "suit": "stars",
+            "number": 7,
+            "imageUrl": "stars_7_illusionist.png",
+            "key": 26
+        },
+        {
+            "name": "The Necromancer",
+            "suit": "stars",
+            "number": 8,
+            "imageUrl": "stars_8_necromancer.png",
+            "key": 27
+        },
+        {
+            "name": "The Conjurer",
+            "suit": "stars",
+            "number": 9,
+            "imageUrl": "stars_9_conjurer.png",
+            "key": 28
+        },
+        {
+            "name": "The Wizard",
+            "suit": "stars",
+            "number": 10,
+            "imageUrl": "stars_master_wizard.png",
+            "key": 29
+        },
+        {
+            "name": "The Avenger",
+            "suit": "swords",
+            "number": 1,
+            "imageUrl": "swords_1_avenger.png",
+            "key": 30
+        },
+        {
+            "name": "The Paladin",
+            "suit": "swords",
+            "number": 2,
+            "imageUrl": "swords_2_paladin.png",
+            "key": 31
+        },
+        {
+            "name": "The Soldier",
+            "suit": "swords",
+            "number": 3,
+            "imageUrl": "swords_3_soldier.png",
+            "key": 32
+        },
+        {
+            "name": "The Mercenary",
+            "suit": "swords",
+            "number": 4,
+            "imageUrl": "swords_4_mercenary.png",
+            "key": 33
+        },
+        {
+            "name": "The Myrmidon",
+            "suit": "swords",
+            "number": 5,
+            "imageUrl": "swords_5_myrmidon.png",
+            "key": 34
+        },
+        {
+            "name": "The Berserker",
+            "suit": "swords",
+            "number": 6,
+            "imageUrl": "swords_6_berserker.png",
+            "key": 35
+        },
+        {
+            "name": "The Hooded One",
+            "suit": "swords",
+            "number": 7,
+            "imageUrl": "swords_7_hooded_one.png",
+            "key": 36
+        },
+        {
+            "name": "The Dictator",
+            "suit": "swords",
+            "number": 8,
+            "imageUrl": "swords_8_dictator.jpg",
+            "key": 37
+        },
+        {
+            "name": "The Torturer",
+            "suit": "swords",
+            "number": 9,
+            "imageUrl": "swords_9_torturer.png",
+            "key": 38
+        },
+        {
+            "name": "The Warrior",
+            "suit": "swords",
+            "number": 10,
+            "imageUrl": "swords_master_warrior.jpg",
+            "key": 39
+        }
+    ],
+    "highDeck": [
+        {
+            "name": "The Artifact",
+            "imageUrl": "high_artifact.png",
+            "key": 40
+        },
+        {
+            "name": "The Beast",
+            "imageUrl": "high_beast.png",
+            "key": 41
+        },
+        {
+            "name": "The Broken One",
+            "imageUrl": "high_broken_one.png",
+            "key": 42
+        },
+        {
+            "name": "The Darklord",
+            "imageUrl": "high_darklord.png",
+            "key": 43
+        },
+        {
+            "name": "The Donjon",
+            "imageUrl": "high_donjon.png",
+            "key": 44
+        },
+        {
+            "name": "The Executioner",
+            "imageUrl": "high_executioner.jpg",
+            "key": 45
+        },
+        {
+            "name": "The Ghost",
+            "imageUrl": "high_ghost.png",
+            "key": 46
+        },
+        {
+            "name": "The Horseman",
+            "imageUrl": "high_horseman.png",
+            "key": 47
+        },
+        {
+            "name": "The Innocent",
+            "imageUrl": "high_innocent.png",
+            "key": 48
+        },
+        {
+            "name": "The Marionette",
+            "imageUrl": "high_marionette.png",
+            "key": 49
+        },
+        {
+            "name": "The Mists",
+            "imageUrl": "high_mists.png",
+            "key": 50
+        },
+        {
+            "name": "The Raven",
+            "imageUrl": "high_raven.png",
+            "key": 51
+        },
+        {
+            "name": "The Seer",
+            "imageUrl": "high_seer.png",
+            "key": 52
+        },
+        {
+            "name": "The Tempter",
+            "imageUrl": "high_tempter.png",
+            "key": 53
         }
     ]
 }

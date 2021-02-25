@@ -13,10 +13,11 @@ class App extends Component {
   componentDidMount() {
 
     const loadDeck = () => JSON.parse(JSON.stringify(deckData));
-    const {deck} = loadDeck();
+    console.log(loadDeck());
+    const {commonDeck} = loadDeck();
 
     this.setState({
-      deck: deck
+      deck: commonDeck
     });
   }
 
