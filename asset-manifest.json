@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tarokka-deck/static/css/main.ad78eb91.chunk.css",
-    "main.js": "/tarokka-deck/static/js/main.de7139f6.chunk.js",
-    "main.js.map": "/tarokka-deck/static/js/main.de7139f6.chunk.js.map",
+    "main.js": "/tarokka-deck/static/js/main.617be6de.chunk.js",
+    "main.js.map": "/tarokka-deck/static/js/main.617be6de.chunk.js.map",
     "runtime-main.js": "/tarokka-deck/static/js/runtime-main.f84db45b.js",
     "runtime-main.js.map": "/tarokka-deck/static/js/runtime-main.f84db45b.js.map",
     "static/js/2.3e797941.chunk.js": "/tarokka-deck/static/js/2.3e797941.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f84db45b.js",
     "static/js/2.3e797941.chunk.js",
     "static/css/main.ad78eb91.chunk.css",
-    "static/js/main.de7139f6.chunk.js"
+    "static/js/main.617be6de.chunk.js"
   ]
 }
