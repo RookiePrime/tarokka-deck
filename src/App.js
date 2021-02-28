@@ -6,36 +6,51 @@ import deckData from './Deck.json';
 class App extends Component {
 
   state = {
-    numOfCards: 0,
+    numberOfCards: 0,
     cards: []
   };
 
   componentDidMount() {
 
     const loadDeck = () => JSON.parse(JSON.stringify(deckData));
-    console.log(loadDeck());
-    const {commonDeck} = loadDeck();
+    const {commonDeck, highDeck} = loadDeck();
 
     this.setState({
-      deck: commonDeck
+      commonDeck: commonDeck,
+      highDeck: highDeck
     });
   }
 
-  makeCard = () => {
-    const daCard = this.state.deck[Math.floor(Math.random() * this.state.deck.length)];
-
-    daCard.flipped = Math.random() < 0.5;
-
-    this.setState({
-      numOfCards: this.state.numOfCards + 1,
-      cards: this.state.cards.concat(daCard),
-      deck: this.state.deck.filter(card => card !== daCard)
-    });
-
-    if (this.state.cards.length >= 4) {
-      document.getElementById('make-cards').style.pointerEvents = "none";
-      document.getElementById('make-cards').style.opacity = "0.5";
+  getReading = number => {
+    // Wipe out the current reading
+    // document.getElementById(`cards-box`).innerHTML="";
+    // Get the 3 commons and 2 highs
+    if (this.state.numberOfCards < 3) {
+      this.makeCard(`common`);
+    } else {
+      this.makeCard(`high`);
     }
+
+    if (number > 3) {
+      document.getElementById(`make-cards`).style.pointerEvents = "none";
+      document.getElementById(`make-cards`).textContent = "";
+    }
+    // Position them on the board
+  }
+
+  makeCard = which => {
+    let daCard = 0;
+    //Ternary for the which
+    which === `common` ? daCard = this.state.commonDeck[Math.floor(Math.random() * this.state.commonDeck.length)] : daCard = this.state.highDeck[Math.floor(Math.random() * this.state.highDeck.length)];
+  
+    daCard.flipped = Math.random() < 0.5;
+    
+    this.setState({
+      numberOfCards: this.state.numberOfCards + 1,
+      cards: this.state.cards.concat(daCard),
+      commonDeck: this.state.commonDeck.filter(card => card !== daCard),
+      highDeck: this.state.highDeck.filter(card => card !== daCard)
+    });
   }
 
   render() {
@@ -50,8 +65,8 @@ class App extends Component {
           <h1>Tarokka Reading</h1>
         </header>
         <main className="App-main">
-          <button className="make-cards" id="make-cards" onClick={() => this.makeCard(this.state.deck)}>Make a Card!</button>
-          <div className="cards-box">
+          <button className="make-cards" id="make-cards" onClick={() => this.getReading(this.state.numberOfCards)}>See your Fortune!</button>
+          <div id="cards-box">
             {theCards}  
           </div>
         </main>

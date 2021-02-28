@@ -39,7 +39,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
   position: relative;
 }
 
-.cards-box {
+#cards-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -47,4 +47,9 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .make-cards {
   margin: 20px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 150px;
 }
