@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/tarokka-deck/static/css/main.b16d5ff0.chunk.css",
-    "main.js": "/tarokka-deck/static/js/main.5ee28334.chunk.js",
-    "main.js.map": "/tarokka-deck/static/js/main.5ee28334.chunk.js.map",
+    "main.js": "/tarokka-deck/static/js/main.9aa6145e.chunk.js",
+    "main.js.map": "/tarokka-deck/static/js/main.9aa6145e.chunk.js.map",
     "runtime-main.js": "/tarokka-deck/static/js/runtime-main.5e21811e.js",
     "runtime-main.js.map": "/tarokka-deck/static/js/runtime-main.5e21811e.js.map",
-    "static/js/2.ba1dd71a.chunk.js": "/tarokka-deck/static/js/2.ba1dd71a.chunk.js",
-    "static/js/2.ba1dd71a.chunk.js.map": "/tarokka-deck/static/js/2.ba1dd71a.chunk.js.map",
+    "static/js/2.80b49ef4.chunk.js": "/tarokka-deck/static/js/2.80b49ef4.chunk.js",
+    "static/js/2.80b49ef4.chunk.js.map": "/tarokka-deck/static/js/2.80b49ef4.chunk.js.map",
     "static/js/3.21887771.chunk.js": "/tarokka-deck/static/js/3.21887771.chunk.js",
     "static/js/3.21887771.chunk.js.map": "/tarokka-deck/static/js/3.21887771.chunk.js.map",
     "index.html": "/tarokka-deck/index.html",
     "static/css/main.b16d5ff0.chunk.css.map": "/tarokka-deck/static/css/main.b16d5ff0.chunk.css.map",
-    "static/js/2.ba1dd71a.chunk.js.LICENSE.txt": "/tarokka-deck/static/js/2.ba1dd71a.chunk.js.LICENSE.txt"
+    "static/js/2.80b49ef4.chunk.js.LICENSE.txt": "/tarokka-deck/static/js/2.80b49ef4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5e21811e.js",
-    "static/js/2.ba1dd71a.chunk.js",
+    "static/js/2.80b49ef4.chunk.js",
     "static/css/main.b16d5ff0.chunk.css",
-    "static/js/main.5ee28334.chunk.js"
+    "static/js/main.9aa6145e.chunk.js"
   ]
 }
