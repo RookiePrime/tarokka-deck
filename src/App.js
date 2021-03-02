@@ -9,14 +9,10 @@ const App = () => {
   const [commons, changeCommons] = useState([]);
   const [highs, changeHighs] = useState([]);
 
-  useEffect(() => {
-    fetch("./Deck.json")
-      .then(() => JSON.parse(JSON.stringify(deckData)))
-      .then(deck => {
-        changeCommons(deck.commonDeck);
-        changeHighs(deck.highDeck);
-      });
-    }, []);
+  useEffect( () => {
+    changeCommons(deckData.commonDeck);
+    changeHighs(deckData.highDeck);
+  }, []);
 
   const theCards = cards.map( (card, i) => <Card key={cards[i].name} cardData={cards[i]} />);
   
