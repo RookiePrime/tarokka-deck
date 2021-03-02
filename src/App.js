@@ -39,10 +39,12 @@ const getReading = (commons, highs) => {
   const reading = [];
 
   for (let i = 0; i < 5; i++) {
-    i < 3 ? reading.push(makeCard(commons)) : reading.push(makeCard(highs));
+    const deck = i < 3 ? commons : highs;
+    const card = makeCard(deck);
+    commons.filter(aCard => aCard.name === card.name);
+    highs.filter(aCard => aCard.name === card.name);
+    reading.push(card);
   }
-  console.log(reading);
-
   return reading;
 }
 
