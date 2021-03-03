@@ -14,7 +14,7 @@ const App = () => {
     changeHighs(deckData.highDeck);
   }, []);
 
-  const theCards = cards.map( (card, i) => <Card key={i} cardData={cards[i]} />);
+  const theCards = cards.map( (card, i) => <Card id={`card${i}`} key={cards[i].name} cardData={cards[i]} cardNum={i} />);
   
   return (
     <div className="App">
@@ -24,7 +24,7 @@ const App = () => {
       </header>
       <main className="App-main">
         <div id="cards-box">
-          {theCards}  
+          {theCards}
         </div>
       </main>
     </div>

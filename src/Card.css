@@ -3,7 +3,6 @@
   border-radius: 5%;
   height: 200px;
   width: 140px;
-  margin: 20px;
   padding: 0;
   transition: all 0.3s ease;
 }
@@ -42,4 +41,37 @@
 
 .card:hover .text-box {
   opacity: 0.7;
+}
+
+#card0 {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+
+}
+#card1 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin-left: -70px;
+}
+
+#card2 {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+}
+
+#card3 {
+  position: absolute;
+  top: 66%;
+  left: 50%;
+  margin-left: -70px;
+}
+
+#card4 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-left: -70px;
 }

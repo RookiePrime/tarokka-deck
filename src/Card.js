@@ -2,11 +2,11 @@ import React from 'react';
 import './Card.css';
 
 const Card = props => {
-  const {cardData} = props;
+  const {cardData, cardNum} = props;
   const {imageUrl, description} = cardData;
 
     return (
-      <div className="card">
+      <div className="card" id={`card${cardNum}`}>
         <div className="pic-box" style={
           {
             backgroundImage: `url(${process.env.PUBLIC_URL}/assets/card_${imageUrl})`,
