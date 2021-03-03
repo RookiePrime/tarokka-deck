@@ -14,15 +14,15 @@ const App = () => {
     changeHighs(deckData.highDeck);
   }, []);
 
-  const theCards = cards.map( (card, i) => <Card key={cards[i].name} cardData={cards[i]} />);
+  const theCards = cards.map( (card, i) => <Card key={i} cardData={cards[i]} />);
   
   return (
     <div className="App">
       <header className="App-header">
         <h1>Tarokka Reading</h1>
+        <button className="make-cards" id="make-cards" onClick={() => addCards(getReading(commons, highs))}>See your Fortune!</button>
       </header>
       <main className="App-main">
-        <button className="make-cards" id="make-cards" onClick={() => addCards(getReading(commons, highs))}>See your Fortune!</button>
         <div id="cards-box">
           {theCards}  
         </div>

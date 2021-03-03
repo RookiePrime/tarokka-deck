@@ -1,8 +1,8 @@
 .card {
   box-shadow: 0 0 30px whitesmoke;
   border-radius: 5%;
-  height: 400px;
-  width: 280px;
+  height: 200px;
+  width: 140px;
   margin: 20px;
   padding: 0;
   transition: all 0.3s ease;
@@ -29,11 +29,15 @@
 }
 
 .text-box {
-  background-color: white;
+  background-image: radial-gradient(circle, white 40%, rgba(255, 255, 255, 0) 80%);
   opacity: 0;
   width: 80%;
   transition: all 0.3s ease;
   padding: 5px 15px;
+}
+
+.text-box p {
+  font-size: 0.7rem;
 }
 
 .card:hover .text-box {
