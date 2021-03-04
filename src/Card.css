@@ -1,13 +1,35 @@
 .card {
-  box-shadow: 0 0 30px whitesmoke;
   border-radius: 5%;
   height: 200px;
   width: 140px;
   padding: 0;
-  transition: all 0.3s ease;
+  transition: all 0.8s ease;
+}
+
+.card.revealed::before {
+  opacity: 0;
+}
+
+.card.revealed {
+  box-shadow: 0 0 30px whitesmoke;
+  transform: scaleX(-1);
+}
+
+.order {
+  position: absolute;
+  top: calc(50% - 30px);
+  left: calc(50% - 13px);
+  font-size: calc(300%);
+  z-index: 10;
+  color: whitesmoke;
+}
+
+card.revealed .order{
+  transform: scaleX(-1);
 }
 
 .pic-box {
+  background-image: url("./card_back.png");
   background-position: center;
   background-size: cover;
   border-radius: 5%;
@@ -20,11 +42,11 @@
 }
   
 .card:hover {
-    transform: scale(1.1);
-}
+    box-shadow: 0 0 30px whitesmoke;
+  }
   
-.card.flipped:hover {
-    transform: scale(1.1);
+.card.revealed:hover {
+  transform: scale(-1.3, 1.3);
 }
 
 .text-box {
@@ -39,14 +61,14 @@
   font-size: 0.7rem;
 }
 
-.card:hover .text-box {
+.card.revealed:hover .text-box {
   opacity: 0.7;
 }
 
 #card0 {
   position: absolute;
   top: 35%;
-  left: 5%;
+  left: 7%;
 
 }
 #card1 {
@@ -59,7 +81,7 @@
 #card2 {
   position: absolute;
   top: 35%;
-  right: 5%;
+  right: 7%;
 }
 
 #card3 {
@@ -74,4 +96,33 @@
   top: 35%;
   left: 50%;
   margin-left: -70px;
+}
+
+@media (max-width: 800px) {
+
+  .card {
+    height: 300px;
+    width: 210px;
+  }
+
+  #card0,
+  #card1,
+  #card2,
+  #card3,
+  #card4 {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin: 40px;
+  }
+
+  .text-box {
+    background-image: radial-gradient(circle, white 50%, rgba(255, 255, 255, 0) 80%);
+  }
+
+  .text-box p {
+    font-size: 1rem;
+  }
 }

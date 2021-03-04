@@ -44,8 +44,8 @@ body {
   width: 800px;
   height: 800px;
   position: relative;
-  box-shadow: 0 0 30px whitesmoke;
-  transform: scale(0.8);
+  box-shadow: 0 0 50px whitesmoke;
+  transform: scale(0.9);
 }
 
 .make-cards {
@@ -56,4 +56,16 @@ body {
   color: white;
   min-height: 25px;
   min-width: 120px;
+}
+
+@media (max-width: 800px) {
+  #cards-box {
+    width: auto;
+    height: auto;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
