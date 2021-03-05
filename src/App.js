@@ -5,22 +5,22 @@ import deckData from './Deck.json';
 
 const App = () => {
 
-  const [cards, addCards] = useState([]);
-  const [commons, changeCommons] = useState([]);
-  const [highs, changeHighs] = useState([]);
+  const [cards, setCards] = useState([]);
+  const [commons, setCommons] = useState([]);
+  const [highs, setHighs] = useState([]);
 
   useEffect( () => {
-    changeCommons(deckData.commonDeck);
-    changeHighs(deckData.highDeck);
+    setCommons(deckData.commonDeck);
+    setHighs(deckData.highDeck);
   }, []);
 
-  const theCards = cards.map( (card, i) => <Card id={`card${i}`} key={cards[i].name} cardData={cards[i]} cardNum={i} />);
+  const theCards = cards.map( (card, i) => <Card id={`card${i}`} key={`${cards[i].name}${Math.floor(Math.random()*99)}`} cardData={cards[i]} cardNum={i} />);
   
   return (
     <div className="App">
       <header className="App-header">
         <h1>Tarokka Reading</h1>
-        <button className="make-cards" id="make-cards" onClick={() => addCards(getReading(commons, highs))}>See your Fortune!</button>
+        <button className="make-cards" id="make-cards" onClick={ () => setCards(getReading(commons, highs)) }>See your Fortune!</button>
       </header>
       <main className="App-main">
         <div id="cards-box">

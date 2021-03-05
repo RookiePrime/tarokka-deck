@@ -47,6 +47,7 @@ card.revealed .order{
   
 .card.revealed:hover {
   transform: scale(-1.3, 1.3);
+  z-index: 20;
 }
 
 .text-box {
@@ -104,7 +105,7 @@ card.revealed .order{
     height: 300px;
     width: 210px;
   }
-
+  
   #card0,
   #card1,
   #card2,
@@ -124,5 +125,19 @@ card.revealed .order{
 
   .text-box p {
     font-size: 1rem;
+  }
+}
+
+@media (max-height: 500px) {
+  #card0,
+  #card1,
+  #card2,
+  #card3,
+  #card4 {
+    margin: 0 15px 40px 15px;
+  }
+
+  .card.revealed:hover {
+    transform: scale(-1.2, 1.2);
   }
 }
