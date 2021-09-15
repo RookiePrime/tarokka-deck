@@ -2,24 +2,15 @@
 ## Description
 A digital Tarokka deck! A fictional variation on the Tarot Deck, the Tarokka deck is used in Dungeons & Dragons to tell the future. With this deck, you can quickly and easily enact a fortune-telling for yourself or at the D&D table.
 
+[Link to live page](https://rookieprime.github.io/tarokka-deck/)
+
 ![Preview image of the application](./preview.png)
 
 ## Table of Contents
 
-
-
-
 - [Questions](#Questions)
 - [Code-of-Conduct](#Code-of-Conduct)
 - [License](#License)
-
-
-
-
-
-
-
-
 
 ## Questions
 If you need to reach me, my GitHub username (and a link to my profile page) is [RookiePrime](https://github.com/RookiePrime) and my email address is [kiefer.levine@protonmail.com](mailto:kiefer.levine@protonmail.com).
