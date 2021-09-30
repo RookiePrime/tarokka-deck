@@ -29,7 +29,7 @@ card.revealed .order{
 }
 
 .pic-box {
-  background-image: url("./card_back.png");
+  background-image: url("../../assets/card_back.png");
   background-position: center;
   background-size: cover;
   border-radius: 5%;
