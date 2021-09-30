@@ -33,3 +33,12 @@ export const revealCard = (cardNum, cardData) => {
       daPicBox.style.backgroundImage = `url(${cardPic.default})`;
     }, 200);
 }
+
+export const registerServiceWorker = () => {
+  if ('serviceWorker in navigator' && process.env.NODE_ENV === 'production') {
+    navigator.serviceWorker
+      .register('%PUBLIC_URL%/service-worker.js')
+      .then(() => console.log('Service Worker registered successfully'))
+      .catch(error => console.log('Service Worker failed to register. Error: ', error));
+  }
+}
