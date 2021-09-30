@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tarokka-deck/static/css/main.e79c8479.chunk.css",
-    "main.js": "/tarokka-deck/static/js/main.fa71edaa.chunk.js",
-    "main.js.map": "/tarokka-deck/static/js/main.fa71edaa.chunk.js.map",
-    "runtime-main.js": "/tarokka-deck/static/js/runtime-main.1201b923.js",
-    "runtime-main.js.map": "/tarokka-deck/static/js/runtime-main.1201b923.js.map",
-    "static/js/2.5a279cdc.chunk.js": "/tarokka-deck/static/js/2.5a279cdc.chunk.js",
-    "static/js/2.5a279cdc.chunk.js.map": "/tarokka-deck/static/js/2.5a279cdc.chunk.js.map",
-    "static/js/3.8698ea6a.chunk.js": "/tarokka-deck/static/js/3.8698ea6a.chunk.js",
-    "static/js/3.8698ea6a.chunk.js.map": "/tarokka-deck/static/js/3.8698ea6a.chunk.js.map",
+    "main.css": "/tarokka-deck/static/css/main.f4417297.chunk.css",
+    "main.js": "/tarokka-deck/static/js/main.fbd579a3.chunk.js",
+    "main.js.map": "/tarokka-deck/static/js/main.fbd579a3.chunk.js.map",
+    "runtime-main.js": "/tarokka-deck/static/js/runtime-main.0a7796d2.js",
+    "runtime-main.js.map": "/tarokka-deck/static/js/runtime-main.0a7796d2.js.map",
+    "static/js/2.f84d0dda.chunk.js": "/tarokka-deck/static/js/2.f84d0dda.chunk.js",
+    "static/js/2.f84d0dda.chunk.js.map": "/tarokka-deck/static/js/2.f84d0dda.chunk.js.map",
+    "static/js/3.8b68b8e5.chunk.js": "/tarokka-deck/static/js/3.8b68b8e5.chunk.js",
+    "static/js/3.8b68b8e5.chunk.js.map": "/tarokka-deck/static/js/3.8b68b8e5.chunk.js.map",
     "index.html": "/tarokka-deck/index.html",
-    "static/css/main.e79c8479.chunk.css.map": "/tarokka-deck/static/css/main.e79c8479.chunk.css.map",
-    "static/js/2.5a279cdc.chunk.js.LICENSE.txt": "/tarokka-deck/static/js/2.5a279cdc.chunk.js.LICENSE.txt",
+    "static/css/main.f4417297.chunk.css.map": "/tarokka-deck/static/css/main.f4417297.chunk.css.map",
+    "static/js/2.f84d0dda.chunk.js.LICENSE.txt": "/tarokka-deck/static/js/2.f84d0dda.chunk.js.LICENSE.txt",
     "static/media/Card.css": "/tarokka-deck/static/media/card_back.c12c97c0.png",
     "static/media/card_coins_1_swashbuckler.png": "/tarokka-deck/static/media/card_coins_1_swashbuckler.dde2f5b8.png",
     "static/media/card_coins_2_philanthropist.png": "/tarokka-deck/static/media/card_coins_2_philanthropist.c6f528b2.png",
@@ -69,9 +69,9 @@
     "static/media/card_swords_master_warrior.jpg": "/tarokka-deck/static/media/card_swords_master_warrior.44b388a1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1201b923.js",
-    "static/js/2.5a279cdc.chunk.js",
-    "static/css/main.e79c8479.chunk.css",
-    "static/js/main.fa71edaa.chunk.js"
+    "static/js/runtime-main.0a7796d2.js",
+    "static/js/2.f84d0dda.chunk.js",
+    "static/css/main.f4417297.chunk.css",
+    "static/js/main.fbd579a3.chunk.js"
   ]
 }
