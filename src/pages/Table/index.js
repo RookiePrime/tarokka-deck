@@ -2,7 +2,6 @@ import React from 'react';
 import Card from '../../components/Card';
 
 const Table = ({ cards }) => {
-
     return (
         <main className='App-main'>
             <div id='cards-box'>

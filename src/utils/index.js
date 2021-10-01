@@ -16,8 +16,6 @@ export const getReading = (commons, highs) => {
 export const makeCard = deck => {
     const daCard = deck[Math.floor(Math.random() * deck.length)];
   
-    daCard.flipped = Math.random() > 0.5;
-  
     return daCard;
 }
 
