@@ -8,21 +8,28 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+:root {
+  --primary: black;
+  --secondary: white;
+  --tertiary: #282c34;
+  --quartiary: whitesmoke;
+}
+
 body {
-  background-color: black;
+  background-color: var(--primary);
 }
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
+  height: 110px;
+  background-color: var(--tertiary);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--secondary);
   position: sticky;
   top: 0;
   z-index: 30;
@@ -44,18 +51,38 @@ body {
   width: 800px;
   height: 800px;
   position: relative;
-  box-shadow: 0 0 50px whitesmoke;
+  box-shadow: 0 0 50px var(--quartiary);
   transform: scale(0.9);
 }
 
 .make-cards {
+  position: absolute;
+  top: 50px;
   font-size: 0.8rem;
   margin: 5px;
-  border: 2px solid white;
-  background-color: black;
-  color: white;
+  padding: 15px;
+  border: 2px solid var(--secondary);
+  border-radius: 7px;
+  background-color: var(--primary);
+  color: var(--secondary);
   min-height: 25px;
   min-width: 120px;
+  transition: 0.3s ease;
+}
+
+.make-cards:hover,
+.make-cards:focus {
+  top: 46px;
+  border: 2px dotted var(--secondary);
+  border-radius: 10px;
+  transform: scale(1.05);
+  font-size: 1.1rem;
+  padding: 15px 0;
+}
+
+.make-cards:active {
+  color: var(--tertiary);
+  background-color: var(--secondary);
 }
 
 @media (max-width: 800px) {

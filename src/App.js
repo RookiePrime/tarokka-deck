@@ -9,12 +9,11 @@ import Table from './pages/Table';
 const App = () => {
 
   const [cards, setCards] = useState([]);
-  const [commons] = useState(deckData.commonDeck);
-  const [highs] = useState(deckData.highDeck);
+  const [deck] = useState(deckData);
   
   return (
     <div className="App">
-      <Navbar commons={commons} highs={highs} setCards={setCards} />
+      <Navbar setCards={setCards} deck={deck} />
       <Table cards={cards} />
     </div>
   );

@@ -1,24 +1,23 @@
-export const getReading = (commons, highs) => {
+export const getReading = masterDeck => {
     const reading = [];
+    let commonDeck = [...masterDeck.commonDeck];
+    let highDeck = [...masterDeck.highDeck];
   
     for (let i = 0; i < 5; i++) {
-      const deck = i < 3 ? commons : highs;
+      const deck = i < 3 ? commonDeck : highDeck;
       const card = makeCard(deck);
-      
-      commons = commons.filter(aCard => aCard.name !== card.name);
-      highs = highs.filter(aCard => aCard.name !== card.name);
-  
-      reading.push(card);
+
+      reading.push(card[0]);
     }
+
     return reading;
 }
-  
+
 export const makeCard = deck => {
-    const daCard = deck[Math.floor(Math.random() * deck.length)];
-  
-    daCard.flipped = Math.random() > 0.5;
-  
-    return daCard;
+  const j = Math.floor(Math.random() * deck.length - 1);
+  const card = deck.splice(j, 1);      
+  card[0].flipped = Math.random() > 0.5;
+  return card;
 }
 
 export const revealCard = (cardNum, cardData) => {
