@@ -9,12 +9,18 @@ import Table from './pages/Table';
 const App = () => {
 
   const [cards, setCards] = useState([]);
-  const [commons] = useState(deckData.commonDeck);
-  const [highs] = useState(deckData.highDeck);
+  const [commons, setCommons] = useState(deckData.commonDeck);
+  const [highs, setHighs] = useState(deckData.highDeck);
   
   return (
     <div className="App">
-      <Navbar commons={commons} highs={highs} setCards={setCards} />
+      <Navbar 
+        commons={commons} 
+        setCommons={setCommons}
+        highs={highs} 
+        setHighs={setHighs}
+        setCards={setCards} 
+      />
       <Table cards={cards} />
     </div>
   );

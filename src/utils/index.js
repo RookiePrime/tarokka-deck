@@ -1,12 +1,12 @@
-export const getReading = (commons, highs) => {
+export const getReading = (commons, setCommons, highs, setHighs) => {
     const reading = [];
   
     for (let i = 0; i < 5; i++) {
       const deck = i < 3 ? commons : highs;
       const card = makeCard(deck);
       
-      commons = commons.filter(aCard => aCard.name !== card.name);
-      highs = highs.filter(aCard => aCard.name !== card.name);
+      setCommons(commons.filter(aCard => aCard.name !== card.name));
+      setHighs(highs = highs.filter(aCard => aCard.name !== card.name));
   
       reading.push(card);
     }
