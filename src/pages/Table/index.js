@@ -6,7 +6,7 @@ const Table = ({ cards }) => {
     return (
         <main className='App-main'>
             <div id='cards-box'>
-                {cards.map( (card, i) => <Card id={`card${i}`} key={`${cards[i].name}${Math.floor(Math.random()*99)}`} cardData={cards[i]} cardNum={i} />)}
+                {cards.map( (card, i) => <Card id={`card${i}`} key={`${card.name}${Math.floor(Math.random()*99)}`} cardData={card} cardNum={i} />)}
             </div>
         </main>
     );
